@@ -10,7 +10,7 @@
   "scripts": {
     "start": "react-scripts start",
     "dev": "vite",
-    "build": "Vite build",
+    "build": "vite build",
     "test": "react-scripts test --maxWorkers=2",
     "eject": "react-scripts eject",
     "server": "json-server --watch db.json --port 3001"
@@ -22,8 +22,8 @@
     "babel-jest": "^30.0.4",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^30.0.4",
-    "vite": "^7.0.5",
-    "json-server": "^0.17.3"
+    "json-server": "^0.17.3",
+    "vite": "^7.0.5"
   },
   "jest": {
     "moduleNameMapper": {
