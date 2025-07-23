@@ -1,7 +1,14 @@
- HEAD
 # 💰 Smart Goal Planner
 
 The **Smart Goal Planner** is a React-based financial planning app that allows users to set, track, and manage multiple savings goals. Whether you're planning for an emergency fund, a vacation, or a big purchase, this tool helps you stay on track by visualizing progress and managing deposits efficiently.
+
+---
+
+## 🌐 Live Demo
+
+🔗 [smart-goal-planner-two.vercel.app](https://smart-goal-planner-two.vercel.app)
+
+---
 
 ## 🚀 Features
 
@@ -11,6 +18,8 @@ The **Smart Goal Planner** is a React-based financial planning app that allows u
 - 📝 Edit or delete goals at any time
 - 🔄 Full CRUD support with a `json-server` backend
 
+---
+
 ## 🛠️ Technologies Used
 
 - React
@@ -18,6 +27,8 @@ The **Smart Goal Planner** is a React-based financial planning app that allows u
 - Chart.js (for data visualization)
 - JSON Server (mock backend)
 - Vite (fast React development)
+
+---
 
 ## 📦 Getting Started
 
@@ -34,14 +45,14 @@ bash
 Copy
 Edit
 git clone git@github.com:Kenneth-kipkosgei/smart-goal-planner.git
-cd smart-goal-planner/vite-project
+cd smart-goal-planner
 Install dependencies:
 
 bash
 Copy
 Edit
 npm install
-Start the json-server:
+Start the json-server backend:
 
 bash
 Copy
@@ -53,7 +64,7 @@ bash
 Copy
 Edit
 npm run dev
-Open http://localhost:5173 in your browser.
+Then open http://localhost:5173 in your browser.
 
 🧪 Sample db.json
 json
@@ -70,12 +81,12 @@ Edit
   ]
 }
 📸 Screenshots
-(You can add images here showing the dashboard, goal form, and charts)
+Add screenshots of your app here (dashboard, goal form, progress chart, etc.)
 
 📄 License
 This project is licensed under the MIT License.
 
-vbnet
+text
 Copy
 Edit
 MIT License
@@ -84,27 +95,7 @@ Copyright (c) 2025 Kenneth Kipkosgei
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights to
-use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
-of the Software, and to permit persons to whom the Software is furnished to do
-so, subject to the following conditions:
-...
-Full license text available here.
-
+in the Software without restriction...
 👨‍💻 Author
 Kenneth Kipkosgei
 GitHub: @Kenneth-kipkosgei
-
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
- d83460139 (Initial commit)
