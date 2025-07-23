@@ -4,7 +4,7 @@ import Overview from './components/Overview.jsx';
 import GoalList from './components/GoalList.jsx';
 import AddGoalForm from './components/GoalForm.jsx';
 
-const API_URL = "http://localhost:3001/goals";
+const API_URL = "https://smartgoal-dbjson.onrender.com/";
 
 function App() {
   const [goals, setGoals] = useState([]);
