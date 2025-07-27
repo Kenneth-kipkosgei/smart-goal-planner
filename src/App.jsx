@@ -25,7 +25,6 @@ function App() {
     }
     fetchGoals();
   }, []);
-
   const handleAddGoal = async (newGoal) => {
     try {
       const goalWithId = { ...newGoal, id: Date.now().toString() };
