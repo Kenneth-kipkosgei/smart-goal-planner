@@ -3,7 +3,6 @@ import React from 'react';
 function GoalCard({ goal, onUpdate, onDelete, onDeposit }) {
   const progress = (goal.savedAmount / goal.targetAmount) * 100;
   const isCompleted = goal.savedAmount >= goal.targetAmount;
-
   return (
     <div className={`goal-card ${isCompleted ? 'completed' : ''}`}>
       <h3>{goal.name}</h3>
