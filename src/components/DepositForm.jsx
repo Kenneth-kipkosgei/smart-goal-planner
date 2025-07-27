@@ -17,7 +17,6 @@ function DepositForm({ goal, onUpdate, onClose }) {
     });
     onClose();
   };
-
   return (
     <div className="deposit-form modal">
       <div className="modal-content">
