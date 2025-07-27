@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-
 function EditGoalForm({ goal, onUpdate, onClose }) {
   const [formData, setFormData] = useState({
     name: goal.name,
