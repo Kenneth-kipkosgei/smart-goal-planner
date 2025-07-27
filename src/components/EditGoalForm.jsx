@@ -6,7 +6,6 @@ function EditGoalForm({ goal, onUpdate, onClose }) {
     category: goal.category,
     deadline: goal.deadline
   });
-
   const handleSubmit = (e) => {
     e.preventDefault();
     onUpdate(goal.id, {
