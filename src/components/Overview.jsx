@@ -6,7 +6,6 @@ import DepositForm from './DepositForm';
 function GoalList({ goals, onUpdate, onDelete }) {
   const [editingGoal, setEditingGoal] = useState(null);
   const [depositingGoal, setDepositingGoal] = useState(null);
-
   const handleUpdate = (goalId) => {
     const goal = goals.find(g => g.id === goalId);
     setEditingGoal(goal);
