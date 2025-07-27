@@ -7,7 +7,6 @@ function AddGoalForm({ onAdd }) {
     category: '',
     deadline: ''
   });
-
   const handleSubmit = (e) => {
     e.preventDefault();
     const newGoal = {
