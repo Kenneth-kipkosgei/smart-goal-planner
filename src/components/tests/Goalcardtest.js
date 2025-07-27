@@ -1,6 +1,5 @@
 import { render, screen } from '@testing-library/react';
 import GoalCard from '../GoalCard';
-
 test('renders goal card with goal name', () => {
   const mockGoal = {
     id: '1',
