@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 
 function DepositForm({ goal, onUpdate, onClose }) {
   const [amount, setAmount] = useState('');
-
   const handleSubmit = (e) => {
     e.preventDefault();
     const depositAmount = parseFloat(amount);
