@@ -28,5 +28,4 @@ function GoalCard({ goal, onUpdate, onDelete, onDeposit }) {
     </div>
   );
 }
-
 export default GoalCard;
