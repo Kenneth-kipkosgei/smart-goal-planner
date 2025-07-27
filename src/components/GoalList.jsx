@@ -16,7 +16,6 @@ function GoalList({ goals, onUpdate, onDelete }) {
     const goal = goals.find(g => g.id === goalId);
     setDepositingGoal(goal);
   };
-
   return (
     <div className="goal-list">
       <h2>Your Goals</h2>
